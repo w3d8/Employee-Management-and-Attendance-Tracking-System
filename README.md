@@ -1,4 +1,4 @@
-Employee Management and Attendance Tracking System
+#Employee Management and Attendance Tracking System
 
 A database-driven system designed to manage employee information and track employee attendance. The project uses Oracle SQL and PL/SQL to demonstrate database design, data management, security, and automated database operations.
 
@@ -8,7 +8,7 @@ The Employee Management and Attendance Tracking System provides a structured way
 
 The system includes database tables, relationships, constraints, sample data, SQL queries, user roles, permissions, views, procedures, functions, and triggers.
 
-Features
+#Features
 
 * Manage employee information and employment details.
 * Track employee attendance records.
@@ -20,13 +20,13 @@ Features
 * Use PL/SQL procedures and functions for reusable database operations.
 * Use a trigger to respond automatically to salary increases.
 
-Database Structure
+#Database Structure
 
 The system is based on two main tables:
 
-Employees
+#Employees
 
-The employees table stores employee information, including:
+#The employees table stores employee information, including:
 
 * Employee ID
 * Full name
@@ -42,9 +42,9 @@ The employees table stores employee information, including:
 
 The employee_id is the primary key. The manager_id creates a self-referencing relationship that connects an employee to their manager.
 
-Attendance
+#Attendance
 
-The attendance table stores employee attendance information, including:
+#The attendance table stores employee attendance information, including:
 
 * Attendance ID
 * Employee ID
@@ -55,7 +55,7 @@ The attendance table stores employee attendance information, including:
 
 Each attendance record is connected to an employee through a foreign key.
 
-Technologies Used
+#Technologies Used
 
 * Oracle SQL
 * PL/SQL
@@ -96,14 +96,14 @@ This trigger runs automatically after an employee’s salary is increased and di
 
 Sample Queries
 
-The project includes queries to:
+#The project includes queries to:
 
 * View all active employees.
 * Display employee information by department.
 * Identify recent attendance issues, such as late or absent employees.
 * Combine employee and attendance information using SQL JOIN operations.
 
-How to Run the Project
+#How to Run the Project
 
 1. Open Oracle SQL Developer or another Oracle database client.
 2. Create or connect to an Oracle database.
@@ -111,13 +111,13 @@ How to Run the Project
 4. Run the script in the correct order.
 5. Review the created tables, sample data, queries, and PL/SQL components.
 
-Project Files
+#Project Files
 
 * Employee Attendance Management.sql — Contains the complete database implementation, including tables, sample data, security settings, queries, views, procedures, functions, and triggers.
 
 Learning Outcomes
 
-This project demonstrates practical knowledge of:
+#This project demonstrates practical knowledge of:
 
 * Relational database design.
 * SQL table creation and data manipulation.
@@ -129,8 +129,5 @@ This project demonstrates practical knowledge of:
 * PL/SQL procedures and functions.
 * Database automation using triggers.
 
-Author
-
-Waad Alhmoud
-
-Information Systems Student
+#Author:
+#Waad Alhmoud
